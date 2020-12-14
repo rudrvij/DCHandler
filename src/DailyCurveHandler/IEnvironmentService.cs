@@ -1,4 +1,4 @@
-﻿namespace DailyCurveHandler.Functions
+﻿namespace DailyCurveHandler
 {
     public interface IEnvironmentService
     {

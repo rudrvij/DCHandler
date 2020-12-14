@@ -2,7 +2,7 @@
 using Xunit;
 using Amazon.Lambda.TestUtilities;
 
-namespace DailyCurveHandler.Functions.Tests
+namespace DailyCurveHandler.Tests
 {
     public class FunctionTest
     {

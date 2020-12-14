@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System.IO;
 
-namespace DailyCurveHandler.Functions
+namespace DailyCurveHandler
 {
     public class ConfigurationService : IConfigurationService
     {

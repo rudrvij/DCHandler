@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace DailyCurveHandler.Functions
+namespace DailyCurveHandler
 {
     public interface IConfigurationService
     {

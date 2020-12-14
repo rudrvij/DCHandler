@@ -1,7 +1,7 @@
 ﻿using System;
-using static DailyCurveHandler.Functions.Constants;
+using static DailyCurveHandler.Constants;
 
-namespace DailyCurveHandler.Functions
+namespace DailyCurveHandler
 {
     public class EnvironmentService : IEnvironmentService
     {

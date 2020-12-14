@@ -12,10 +12,10 @@ Resources:
   DailyCurveHandlerFunction:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
-      FunctionName: DailyCurveHandler.Functions
+      FunctionName: DailyCurveHandler
       Description: DailyCurveHandler Function
-      CodeUri: ../src/DailyCurveHandler.Functions/
-      Handler: DailyCurveHandler.Functions::DailyCurveHandler.Functions.Function::FunctionHandler
+      CodeUri: ../src/DailyCurveHandler/
+      Handler: DailyCurveHandler::DailyCurveHandler.Function::FunctionHandler
       Runtime: dotnetcore3.1
       Environment: # More info about Env Vars: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
         Variables:

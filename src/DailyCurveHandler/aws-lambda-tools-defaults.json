@@ -12,6 +12,6 @@
   "function-runtime": "dotnetcore3.1",
   "function-memory-size": 256,
   "function-timeout": 30,
-  "function-handler": "DailyCurveHandler.Functions::DailyCurveHandler.Functions.Function::FunctionHandler",
+  "function-handler": "DailyCurveHandler::DailyCurveHandler.Function::FunctionHandler",
   "environment-variables": "\"ASPNETCORE_ENVIRONMENT\"=\"Development\";"
 }
